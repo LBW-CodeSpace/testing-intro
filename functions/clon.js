@@ -1,5 +1,3 @@
-function clonarArray(array) {
+export default function clonarArray(array) {
   return[...array];
 }
-
-module.exports = clonarArray
